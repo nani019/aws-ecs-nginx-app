@@ -1,7 +1,7 @@
 provider "aws" {
   region = var.aws_region
-  access_key = "AKIA5OXNP6UZSUU3Z3G2"
-  secret_key = "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"
+  access_key = "AWS_ACCESS_KEY_ID"
+  secret_key = "AWS_SECRET_ACCESS_KEY"
 }
 
 resource "aws_ecs_cluster" "aws-ecs" {
